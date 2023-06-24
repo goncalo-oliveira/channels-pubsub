@@ -1,6 +1,6 @@
 # Pub Sub
 
-This is an example on how to achieve a pub sub pattern with the help of [Channels](https://github.com/goncalo-oliveira/channels) and *Parcel* protocol.
+This is an example on how to achieve a pub sub pattern with the help of [Channels](https://github.com/goncalo-oliveira/channels) and the [extensions](https://github.com/goncalo-oliveira/channels-parcel) for the [Parcel](https://github.com/goncalo-oliveira/parcel-spec) protocol.
 
 This solution offers no persistence or delivery guarantees. Only connected clients will receive messages. Essentially, the broker will keep track of the clients that are subscribed to a given topic and will forward messages to them.
 
